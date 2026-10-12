@@ -148,3 +148,11 @@ input{
     opacity:.90;
     font-weight:500;
 }
+#nombrePersona{
+    color:#d85a8c;
+    font-size:32px;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:20px;
+    text-align:center;
+}
