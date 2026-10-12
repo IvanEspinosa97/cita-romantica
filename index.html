@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres salir conmigo? ❤️</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- Pantalla 1 -->
+        <div id="pantalla1">
+
+            <div class="corazon">
+                ❤️
+            </div>
+
+            <h1 class="titulo">
+                ¿Quieres salir conmigo? 🌸
+            </h1>
+
+            <div class="contenedor-botones">
+
+                <button id="yesBtn" class="btn-si">
+                    Sí ❤️
+                </button>
+
+                <button id="noBtn" class="btn-no">
+                    No
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Pantalla 2 -->
+
+        <div id="pantalla2" class="oculto">
+
+            <div class="corazon">
+                🥰
+            </div>
+
+            <h1 class="titulo">
+                ¿De verdad acabas de decir que sí?
+            </h1>
+
+            <p class="texto">
+                Ya me estaba preparando para que dijeras que no 😅
+            </p>
+
+            <button id="continuarBtn" class="btn-si">
+                ¡Bueno, bueno! →
+            </button>
+
+        </div>
+
+        <!-- Pantalla 3 -->
+
+        <div id="pantalla3" class="oculto">
+
+            <div class="corazon">
+                💕
+            </div>
+
+            <h1 class="titulo">
+                Entonces...
+                ¿cuándo tienes tiempo libre?
+            </h1>
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="👤 Ingresa tu nombre">
+
+            <input
+                type="date"
+                id="fecha">
+
+            <input
+                type="time"
+                id="hora">
+
+            <button
+                id="confirmarBtn"
+                class="btn-si">
+
+                ❤️ Confirmar cita ❤️
+
+            </button>
+
+        </div>
+
+        <!-- Pantalla Final -->
+
+        <div id="pantallaFinal" class="oculto">
+
+            <div class="corazon grande">
+                💖
+            </div>
+
+            <h1
+                id="tituloConfirmacion"
+                class="titulo-final">
+
+                ¡La cita está confirmada!
+
+            </h1>
+
+            <p
+                id="mensajeConfirmacion"
+                class="mensaje-principal">
+
+                Gracias por decir que sí ❤️
+
+            </p>
+
+            <div
+                id="resumen"
+                class="resumen-cita">
+
+            </div>
+
+            <h2 class="subtitulo">
+                ⏳ Cuenta regresiva
+            </h2>
+
+            <div id="contador"></div>
+
+            <div class="mensaje-romantico">
+
+                <p>
+                    Hay miles de lugares que podríamos visitar,
+                    miles de conversaciones que podríamos tener
+                    y miles de recuerdos que podríamos crear.
+                </p>
+
+                <p>
+                    Pero por ahora me emociona saber
+                    que ya tenemos una fecha ❤️
+                </p>
+
+                <p>
+                    ✨ Cada segundo nos acerca un poquito más
+                    a nuestra cita ✨
+                </p>
+
+            </div>
+
+            <button
+                id="reiniciarBtn"
+                class="btn-reiniciar">
+
+                💕 Volver a vivir este momento
+
+            </button>
+
+            <div class="firma">
+                Desarrollado con ❤️ por Ivan Espinosa
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
